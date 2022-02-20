@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {900..1}
+for i in {1500..1}
 do
   if [ "$i" -gt "59" ]; then
   	min=$(($i / 60))
